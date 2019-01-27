@@ -4,7 +4,7 @@ const request = require('request');
 import { url } from './settings';  
 /* settings.ts
  *
- * export const gateway = 'https://www.some-server.com/';
+ * export const url = 'https://www.some-server.com/';
  */
 
 let tags: any = {};
