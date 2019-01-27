@@ -1,6 +1,6 @@
 *.js
 dist
 node_modules
-settings.js
+settings.ts
 *~
 .AppleDouble
