@@ -1,7 +1,11 @@
 const ruuvi = require('node-ruuvitag');
 const cron = require('cron').CronJob;
 const request = require('request');
-import { url } from './settings';
+import { url } from './settings';  
+/* settings.ts
+ *
+ * export const gateway = 'https://www.some-server.com/';
+ */
 
 let tags: any = {};
 
