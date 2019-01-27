@@ -1,0 +1,26 @@
+{
+  "name": "ruuvi",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.6.0",
+    "node-cron": "^2.0.3",
+    "node-ruuvitag": "^4.1.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "jslint": "^0.12.0",
+    "ts-node": "^7.0.1",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2"
+  }
+}
